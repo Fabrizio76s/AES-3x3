@@ -4,7 +4,7 @@
 
 Este projeto consiste em uma implementação em linguagem C de um algoritmo de criptografia simétrica baseado na estrutura do **AES (Advanced Encryption Standard)**. O código demonstra o funcionamento interno das etapas de confusão e difusão utilizadas em criptografia moderna, adaptadas aqui para blocos de 9 bytes.
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 O programa executa um fluxo completo de criptografia e descriptografia:
 
@@ -13,7 +13,7 @@ O programa executa um fluxo completo de criptografia e descriptografia:
 3.  **Descriptografia:** Realiza o processo inverso para recuperar a mensagem original.
 4.  **Visualização Hexadecimal:** Exibe no console os valores dos bytes em cada etapa para fins de depuração.
 
-## 🛠️ Como Funciona
+##  Como Funciona
 
 O algoritmo segue a estrutura de rede de substituição-permutação (SP-network) característica do AES, operando sobre uma matriz de estado de 9 bytes (3x3). As etapas implementadas são:
 
@@ -24,7 +24,7 @@ O algoritmo segue a estrutura de rede de substituição-permutação (SP-network
 
 Para a descriptografia, o código implementa as operações inversas (`InvSubBytes`, `InvShiftRows`, `InvMixColumns`).
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 * Compilador C (GCC, Clang ou MinGW).
@@ -42,13 +42,13 @@ gcc "AES código.c" -o aes_crypto
 
 ```
 
-##📂 Arquivos GeradosApós a execução, o programa criará os seguintes arquivos no diretório:
+## Arquivos GeradosApós a execução, o programa criará os seguintes arquivos no diretório:
 
 * `bomdia.txt`: Contém o texto plano original.
 * `bomdiaCriptografado.txt`: Contém o resultado da encriptação (bytes ilegíveis).
 * `bomdiaDescriptografado.txt`: Contém o texto recuperado após o processo de decriptação.
 
-##⚠️ Aviso LegalEste código é uma **implementação educacional** destinada ao estudo de algoritmos criptográficos. Ele utiliza parâmetros fixos (chave e mensagem "hardcoded") e um tamanho de bloco não-padrão (9 bytes). **Não utilize este código para proteger dados sensíveis em produção.**
+## Aviso LegalEste código é uma **implementação educacional** destinada ao estudo de algoritmos criptográficos. Ele utiliza parâmetros fixos (chave e mensagem "hardcoded") e um tamanho de bloco não-padrão (9 bytes). **Não utilize este código para proteger dados sensíveis em produção.**
 
 ---
 
