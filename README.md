@@ -1,5 +1,4 @@
 # AES 3x3
-```markdown
 # Implementação Didática de Criptografia (Baseada em AES)
 
 Este projeto consiste em uma implementação em linguagem C de um algoritmo de criptografia simétrica baseado na estrutura do **AES (Advanced Encryption Standard)**. O código demonstra o funcionamento interno das etapas de confusão e difusão utilizadas em criptografia moderna, adaptadas aqui para blocos de 9 bytes.
